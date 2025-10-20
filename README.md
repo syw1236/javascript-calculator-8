@@ -57,7 +57,7 @@
 ## 🔁 실행 흐름도
 ![image](https://i.ibb.co/W45rXJnQ/image.png)
 
-## 테스트 결과
+## 🧪 테스트 결과
 ![image](https://i.ibb.co/Qvx178QX/image.png)  
 **parser.test.js**: 문자열 파싱 기능 단위 테스트 실행    
 **valid.test.js**: validNumber 함수 단위 테스트 실행  

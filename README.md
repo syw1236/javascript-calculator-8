@@ -32,3 +32,32 @@
 ∎ 커스텀 구분자 → 합 계산  
 ∎ 잘못된 입력 → 예외 발생  
 ∎ 음수 입력 → 예외 발생  
+
+
+## 📁 파일 구조
+```
+📦 javascript-calculator
+├── 📂 src
+│   ├── App.js                 # 전체 실행 제어 (입출력 흐름)
+│   ├── parser.js              # 문자열 파싱 및 구분자 처리
+│   ├── calculator.js          # 덧셈 로직 수행
+│   ├── valid.js               # 유효성 검사 및 예외 처리
+│   ├── constants.js           # 상수(메시지, 패턴, 에러 등)
+│   └── index.js               # 프로그램 시작점 (App 실행)
+│
+├── 📂 __tests__               # 각 기능별 테스트 파일
+│   ├── parser.test.js
+│   ├── calculator.test.js
+│   ├── valid.test.js
+│   └── ApplicationTest.js
+│
+└── README.md                  # 기능 목록 및 구현 가이드
+```
+
+## 🔁 실행 흐름도
+![image](https://i.ibb.co/W45rXJnQ/image.png)
+
+
+## 🌱 배운 점
+이번 과제를 수행하면서 정규 표현식에 가장 많은 시간을 투자했습니다.
+기존에는 단순한 패턴 검색 정도만 사용했지만, 이번에는 문자열 파싱의 로직으로 정규직을 직접 설계하면서 정규 표현식의 형태 문법을 자세히 학습할 수 있었습니다.

@@ -57,7 +57,12 @@
 ## 🔁 실행 흐름도
 ![image](https://i.ibb.co/W45rXJnQ/image.png)
 
+## 테스트 결과
+![image](https://i.ibb.co/Qvx178QX/image.png)  
+**parser.test.js**: 문자열 파싱 기능 단위 테스트 실행    
+**valid.test.js**: validNumber 함수 단위 테스트 실행  
+**calculator.test.js**: sum 함수 단위 테스트 실행
 
-## 🌱 배운 점
+## 🌱 배운 점  
 이번 과제를 수행하면서 정규 표현식에 가장 많은 시간을 투자했습니다.  
 기존에는 단순한 패턴 검색 정도만 사용했지만, 이번에는 문자열 파싱의 로직으로 정규직을 직접 설계하면서 정규 표현식의 형태 문법을 자세히 학습할 수 있었습니다.

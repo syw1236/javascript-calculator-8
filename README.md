@@ -55,7 +55,7 @@
 ```
 
 ## 🔁 실행 흐름도
-![image](https://i.ibb.co/W45rXJnQ/image.png)
+![image](https://i.ibb.co/60FDFkFj/image.png)
 
 ## 🧪 테스트 결과
 ![image](https://i.ibb.co/Qvx178QX/image.png)  

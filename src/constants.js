@@ -5,10 +5,17 @@ export const MESSAGE = {
 };
 
 export const PATTERN = {
-    custom: /^\/\/(\[.*\]|.)\n(.*)$/,
+    custom: /^\/\/(.+)\\n(.*)$/,
     basic: /[,:]/,
 }
 
 export const DELIMITER = {
     basic: [",", ":"],
+}
+
+export const ERROR = {
+    invalidInput: "[ERROR] 잘못된 입력입니다.",
+    notANumber: "[ERROR] 숫자가 아닌 값이 포함되어 있습니다.",
+    negativeNumber: "[ERROR] 음수는 허용되지 않습니다.",
+    invalidDelimiter: "[ERROR] 잘못된 구분자 형식입니다.",
 }
